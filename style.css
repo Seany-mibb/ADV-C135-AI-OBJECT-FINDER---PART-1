@@ -1,0 +1,54 @@
+body
+{
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading
+{
+    width:100%;
+    font-size:40px;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #a2db26 0%, #9fb3fa  51%, #a2db26  100%);
+    margin: 0px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    font-size:43px;
+  }
+ 
+  #copy_right_footer
+  {
+    margin-bottom:5px;
+    position:fixed;
+    bottom:0;
+    background-color: #81f4b9;
+    width:100%;
+    border-radius:10px;
+    line-height: 3;
+    text-align: center;
+    box-shadow: 3px 3px 15px lightskyblue;
+    font-size:20px; 
+  }
+
+  canvas
+  {
+    border:ridge;
+    border-width:7px;
+    margin-top:80px;
+  }
